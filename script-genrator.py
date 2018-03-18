@@ -32,7 +32,7 @@ def pick_word(probabilities, int_to_vocab):
     predicted_word = int_to_vocab[index]
     return predicted_word
 
-gen_length = input("Set script generation length : ")
+gen_length = int(input("Set script generation length : "))
 options =  ['homer_simpson', 'moe_szyslak' ,  'Barney_Gumble']
 print("Choose Script for")
 print("1) Homer Simpson")
